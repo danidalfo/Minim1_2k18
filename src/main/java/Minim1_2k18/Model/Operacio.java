@@ -6,12 +6,14 @@ public class Operacio {
 
     private int idAlumne;
     private int idInstitut;
+    private String operacio;
 
     // Constructors
 
-    public Operacio (int idAlumne, int idInstitut, boolean resolta) {
+    public Operacio (int idAlumne, int idInstitut, boolean resolta, String operacio) {
         this.idAlumne = idAlumne;
         this.idInstitut = idInstitut;
+        this.operacio=operacio;
     }
 
     public Operacio () {}
@@ -32,5 +34,13 @@ public class Operacio {
 
     public void setIdInstitut(int idInstitut) {
         this.idInstitut = idInstitut;
+    }
+
+    public String getOperacio() {
+        return operacio;
+    }
+
+    public void setOperacio(String operacio) {
+        this.operacio = operacio;
     }
 }

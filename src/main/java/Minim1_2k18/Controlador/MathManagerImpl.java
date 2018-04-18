@@ -25,6 +25,11 @@ public class MathManagerImpl implements MathManager {
         return instance;
     }
 
+    public void reiniciarSingleton()
+    {
+        instance = null;
+    }
+
     //Constructors
 
     public MathManagerImpl() {
@@ -44,6 +49,13 @@ public class MathManagerImpl implements MathManager {
     }
 
     public List<Institut> getInstituts() {return instituts;}
+
+    // Setters
+
+    public void setInstituts(List<Institut> instituts) {
+        this.instituts = instituts;
+    }
+
 
     // Public functions
 
@@ -137,7 +149,8 @@ public class MathManagerImpl implements MathManager {
             logger.info("getInstitutsSortedByOps: Sorting all instituts by no. ops, if no null It's okay");
 
 
-            return sortInstitutsByOps(instituts);
+          //  return sortInstitutsByOps(instituts);
+            return instituts;
     }
 
         else {
@@ -167,10 +180,10 @@ public class MathManagerImpl implements MathManager {
         return false;
     }
 
-    private List<Institut> sortInstitutsByOps(List<Institut> instituts) {
-        instituts.sort(Comparator.comparing(Institut::getNumOperacions));
-        return instituts;
-    }
+   // private List<Institut> sortInstitutsByOps(List<Institut> instituts) {
+       // instituts.sort(Comparator.comparing(Institut::getNumOperacions));
+  //      return instituts;
+ //   }
 
 
 
