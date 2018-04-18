@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d03a52e-0443-41a9-a314-283375a895ea" name="Default" comment="" />
+    <list default="true" id="9d03a52e-0443-41a9-a314-283375a895ea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Minim1_2k18/Controlador/MathManagerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/Minim1_2k18/Controlador/MathManagerImpl.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +20,7 @@
       <file leaf-file-name="MathManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Minim1_2k18/Controlador/MathManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="0">
               <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -28,8 +32,8 @@
       <file leaf-file-name="MathManagerImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Minim1_2k18/Controlador/MathManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="163" column="73" lean-forward="false" selection-start-line="163" selection-start-column="73" selection-end-line="163" selection-end-column="73" />
+            <state relative-caret-position="226">
+              <caret line="147" column="0" lean-forward="true" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getInstance#0;class#MathManagerImpl#0" expanded="false" />
@@ -38,19 +42,10 @@
                 <element signature="method#procesarOp#0;class#MathManagerImpl#0" expanded="false" />
                 <element signature="method#getOperacionsInstitut#0;class#MathManagerImpl#0" expanded="false" />
                 <element signature="method#getOperacionsAlumne#0;class#MathManagerImpl#0" expanded="false" />
+                <element signature="method#getInstitutsSortedByOps#0;class#MathManagerImpl#0" expanded="false" />
                 <element signature="method#isInstitutOnQueue#0;class#MathManagerImpl#0" expanded="false" />
                 <element signature="method#isAlumneOnQueue#0;class#MathManagerImpl#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Function.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -63,6 +58,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -77,8 +75,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Minim1_2k18/Controlador/MathManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/Minim1_2k18/Model/Operacio.java" />
         <option value="$PROJECT_DIR$/src/main/java/Minim1_2k18/Model/Institut.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Minim1_2k18/Controlador/MathManagerImpl.java" />
         <option value="$PROJECT_DIR$/src/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/Minim1_2k18/Controlador/MathManagerImpl.java" />
       </list>
     </option>
   </component>
@@ -94,6 +92,7 @@
     <option name="width" value="1280" />
     <option name="height" value="725" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -167,6 +166,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -293,7 +293,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -345,6 +345,7 @@
             <element signature="method#procesarOp#0;class#MathManagerImpl#0" expanded="false" />
             <element signature="method#getOperacionsInstitut#0;class#MathManagerImpl#0" expanded="false" />
             <element signature="method#getOperacionsAlumne#0;class#MathManagerImpl#0" expanded="false" />
+            <element signature="method#getInstitutsSortedByOps#0;class#MathManagerImpl#0" expanded="false" />
             <element signature="method#isInstitutOnQueue#0;class#MathManagerImpl#0" expanded="false" />
             <element signature="method#isAlumneOnQueue#0;class#MathManagerImpl#0" expanded="false" />
           </folding>
@@ -371,21 +372,21 @@
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="method#Operacio#0;class#Operacio#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="false" />
+            <element signature="e#416#417#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
+            <element signature="e#501#502#0" expanded="false" />
+            <element signature="e#535#536#0" expanded="false" />
+            <element signature="e#568#569#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Minim1_2k18/Controlador/MathManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="0">
           <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -412,7 +413,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="-257">
           <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
           <folding />
         </state>
@@ -420,8 +421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Minim1_2k18/Controlador/MathManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="163" column="73" lean-forward="false" selection-start-line="163" selection-start-column="73" selection-end-line="163" selection-end-column="73" />
+        <state relative-caret-position="226">
+          <caret line="147" column="0" lean-forward="true" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getInstance#0;class#MathManagerImpl#0" expanded="false" />
@@ -430,6 +431,7 @@
             <element signature="method#procesarOp#0;class#MathManagerImpl#0" expanded="false" />
             <element signature="method#getOperacionsInstitut#0;class#MathManagerImpl#0" expanded="false" />
             <element signature="method#getOperacionsAlumne#0;class#MathManagerImpl#0" expanded="false" />
+            <element signature="method#getInstitutsSortedByOps#0;class#MathManagerImpl#0" expanded="false" />
             <element signature="method#isInstitutOnQueue#0;class#MathManagerImpl#0" expanded="false" />
             <element signature="method#isAlumneOnQueue#0;class#MathManagerImpl#0" expanded="false" />
           </folding>

@@ -137,6 +137,13 @@ public class MathManagerImpl implements MathManager {
             logger.info("getInstitutsSortedByOps: Sorting all instituts by no. ops, if no null It's okay");
 
 
+            return sortInstitutsByOps(instituts);
+    }
+
+        else {
+            logger.warn("getInstitutsSortedByOps: There are no instituts yet");
+            return null;
+        }
     }
 
 
